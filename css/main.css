@@ -23,16 +23,36 @@ body{
 
 
   body:hover img{
-      top:  500px;  
-      left: 500px;
+      top:  70%;  
+      left: 70%;
       transform: rotate(0.5turn);
   }
 
   img{
     position: absolute;
-    top: 200px;
-    left: 100px;
+    top: 300px;
+    left: 20px;
     transition-property: width height transform;
-    transition-duration: 4s;
+    transition-duration: 6s;
     transition-timing-function: ease-in-out;
+  }
+
+  .navbar{
+    top:5%;
+    left: 0;
+    right: 0;
+  }
+  .navbar li{
+    display: inline;
+    font: 1em sans-serif;
+    width: max-content;
+    padding: 0 4px 0 6px;
+ 
+    border-bottom:1px rgb(75, 75, 145) outset; 
+    border-radius: 5px;
+ 
+  }
+
+  .navbar li a{
+    text-decoration: none;
   }
