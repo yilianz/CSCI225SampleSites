@@ -51,7 +51,7 @@
       </h1>
       <p id ="clip"></p>
       <script>
-          setInterval(update, 100); 
+          setInterval(update, 200); 
 
           function update(){
               navigator.clipboard.readText().then(text => document.getElementById('clip').textContent = text);
